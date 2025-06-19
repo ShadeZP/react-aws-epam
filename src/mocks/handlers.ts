@@ -57,5 +57,5 @@ export const handlers = [
   }),
   rest.put(`${API_PATHS.order}/order/:id/status`, (req, res, ctx) => {
     return res(ctx.status(200));
-  }),
+  })
 ];
